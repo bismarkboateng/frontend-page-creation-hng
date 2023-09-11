@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    width: 20%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card--image {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.card--name {
+    margin-bottom: 25px;
+}
+
+.card-day {
+    margin-bottom: 20px;
+}
+
+.card-time {
+    margin-bottom: 10px;
+}
+
+.card-track {
+    margin-bottom: 15px;
+}
+
+.card-link {
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: rgb(112, 112, 243);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.card-link:hover {
+    transform: scale(1.02);
+}
